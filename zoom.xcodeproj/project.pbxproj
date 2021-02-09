@@ -13,6 +13,8 @@
 		97D7548E25D1C278008280FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D7548C25D1C278008280FC /* Main.storyboard */; };
 		97D7549A25D1C278008280FC /* zoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7549925D1C278008280FC /* zoomTests.swift */; };
 		97D754A525D1C278008280FC /* zoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D754A425D1C278008280FC /* zoomUITests.swift */; };
+		97D754B625D1C290008280FC /* Business_Card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97D754B525D1C290008280FC /* Business_Card.jpg */; };
+		97D754BB25D1C2A7008280FC /* myView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D754BA25D1C2A7008280FC /* myView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		97D754A025D1C278008280FC /* zoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D754A425D1C278008280FC /* zoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zoomUITests.swift; sourceTree = "<group>"; };
 		97D754A625D1C278008280FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D754B525D1C290008280FC /* Business_Card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Business_Card.jpg; sourceTree = "<group>"; };
+		97D754BA25D1C2A7008280FC /* myView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				97D7548625D1C274008280FC /* AppDelegate.swift */,
 				97D7548825D1C274008280FC /* ViewController.swift */,
 				97D7548A25D1C278008280FC /* Assets.xcassets */,
+				97D754B525D1C290008280FC /* Business_Card.jpg */,
+				97D754BA25D1C2A7008280FC /* myView.swift */,
 				97D7548C25D1C278008280FC /* Main.storyboard */,
 				97D7548F25D1C278008280FC /* Info.plist */,
 				97D7549025D1C278008280FC /* zoom.entitlements */,
@@ -228,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97D7548B25D1C278008280FC /* Assets.xcassets in Resources */,
+				97D754B625D1C290008280FC /* Business_Card.jpg in Resources */,
 				97D7548E25D1C278008280FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97D7548925D1C274008280FC /* ViewController.swift in Sources */,
+				97D754BB25D1C2A7008280FC /* myView.swift in Sources */,
 				97D7548725D1C274008280FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
